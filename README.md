@@ -1,2 +1,2 @@
 # MergeConflict
-Adding new line to readm
+Adding new line to readme file
