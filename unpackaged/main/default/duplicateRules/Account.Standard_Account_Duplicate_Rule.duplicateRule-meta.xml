@@ -3,17 +3,17 @@
     <actionOnInsert>Allow</actionOnInsert>
     <actionOnUpdate>Allow</actionOnUpdate>
     <alertText>Use one of these records?</alertText>
-    <description>Identify accounts that duplicate other accounts.</description>
+    <description>Identify accounts that duplicate other accounts</description>
     <duplicateRuleFilter xsi:nil="true"/>
     <duplicateRuleMatchRules>
         <matchRuleSObjectType>Account</matchRuleSObjectType>
         <matchingRule>Standard_Account_Match_Rule_v1_0</matchingRule>
         <objectMapping xsi:nil="true"/>
     </duplicateRuleMatchRules>
+    <masterLabel>Nonstandard Account Duplicate Rule</masterLabel>
     <isActive>true</isActive>
     <operationsOnInsert>Alert</operationsOnInsert>
     <operationsOnInsert>Report</operationsOnInsert>
-    <masterLabel>Standard Account Duplicate Rule</masterLabel>
     <operationsOnUpdate>Report</operationsOnUpdate>
     <securityOption>EnforceSharingRules</securityOption>
     <sortOrder>1</sortOrder>
