@@ -1,2 +1,2 @@
 # MergeConflict
-Newline
+Adding new line to readme files
